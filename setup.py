@@ -49,4 +49,5 @@ setup(
     packages=find_packages(),
     package_data={
     },
+    zip_safe=False,
     description="Python driver for Grove AHT20 peripheral.")
